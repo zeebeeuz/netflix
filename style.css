@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.466)),
+    url("images/login-bg.jpeg");
+  height: 100vh;
+}
+.logo {
+  width: 100vw;
+  height: 50px;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 170px;
+}
+.login-box {
+  background-color: #000000b5;
+  width: 425px;
+  height: 650px;
+  padding: 3rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.bilgilendirme {
+  font-size: 16px;
+  color: gray;
+  margin-top: 1rem;
+}
+.bilgilendirme a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.altBilgi {
+  font-size: 13px;
+  color: gray;
+  line-height: 17px;
+}
+.altBilgi a {
+  text-decoration: none;
+  font-size: 13px;
+}
+.form-floating {
+  margin-bottom: 1rem;
+  color: #8c8c8c;
+}
+.form-floating input {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+}
+.form-floating input:focus {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+}
+.form-check {
+  margin-top: 0.5rem;
+  color: #8c8c8c;
+}
+.form-check label {
+  font-size: 14px;
+}
+.form-check a {
+  font-size: 14px;
+}
+.footer-text {
+  background-color: #000000b5;
+  color: #737373;
+}
+.footer-text p a {
+  text-decoration: none;
+  color: #737373;
+}
+.footer-text p a:hover {
+  text-decoration: underline;
+  color: #737373;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #737373;
+}
+
+.footer-link .sub-footer-link a {
+  margin-right: 7.8vw;
+}
+
+.footer-link .sub-footer-link {
+  line-height: 35px;
+}
+.dropdown button {
+  background-color: #000;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+.dropdown button:hover {
+  background-color: #000;
+  color: white;
+  border: 1px solid white;
+}
+.dropdown-menu {
+  background-color: #000000;
+  border: 1px solid white;
+}
+.dropdown-menu li a:hover {
+  background-color: #ffe3e3;
+}
